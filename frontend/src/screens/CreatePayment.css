@@ -1,0 +1,85 @@
+/* styles.css */
+
+.container {
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  margin-left: 490px;
+ 
+}
+
+.content1 {
+  width: 560px;
+  height: 115vh;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(219, 217, 225, 0.845);
+  border-radius: 12px;
+ 
+}
+
+.content1 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content1 form {
+  display: flex;
+  flex-direction: column;
+  width: 500px; /* Increase width as needed */
+  height: 300px; /* Increase height as needed */
+}
+
+.content1 label {
+  font-weight: bold;
+}
+
+.content1 input,
+.content1 select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.content1 button {
+  padding: 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content1 button:hover {
+  background-color: #218838;
+}
+
+.text-info1 {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.text-danger1 {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #dc3545;
+}
+
+.package {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.body1{
+  margin: 0;
+  padding: 0;
+  background-image: url('images/Gym-3.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat;
+}
+

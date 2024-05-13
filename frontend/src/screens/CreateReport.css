@@ -1,0 +1,68 @@
+/* styles.css */
+
+.Report {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.content2 {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(219, 217, 225, 0.845);
+}
+
+.content2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content2 label {
+  font-weight: bold;
+}
+
+.content2 input,
+.content2 select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.content2 button {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content2 button:hover {
+  background-color: #218838;
+}
+
+.text-info {
+  margin-bottom: 20px;
+  display: block;
+}
+
+body{
+  background-image: url('images/Gym-2.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+}
+
+.package1 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
